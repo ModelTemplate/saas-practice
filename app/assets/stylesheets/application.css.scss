@@ -37,18 +37,4 @@ h1, h2, h3 {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
-  // moving margins so container can fill 100% of width (somehow container-fluid class doesn't work)
-  // NOTE: this is a temp fix as this will not work for all browser zoom settings
-  margin-left: -50px;
-  margin-right: -50px;
 }
-
-// override so container will fill 100% of page width
-/*
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
-}
-*/
